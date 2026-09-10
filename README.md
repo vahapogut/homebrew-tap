@@ -10,7 +10,7 @@ The cask is named in full on purpose. Since Homebrew 6.0 a tap that is not one o
 
 ## What is in here
 
-One file, `Casks/trustdiff.rb`, and nothing else. It is written by [goreleaser](https://goreleaser.com) from `.goreleaser.yaml` in the trustdiff repository and committed here by the release workflow every time a version tag is pushed. Nothing here is edited by hand, so a pull request against the cask would be overwritten by the next release. Changes belong in [vahapogut/trustdiff](https://github.com/vahapogut/trustdiff), where the cask is generated from.
+One generated file, `Casks/trustdiff.rb`, beside this README and the license. It is written by [goreleaser](https://goreleaser.com) from `.goreleaser.yaml` in the trustdiff repository and committed here by the release workflow every time a version tag is pushed. Nothing here is edited by hand, so a pull request against the cask would be overwritten by the next release. Changes belong in [vahapogut/trustdiff](https://github.com/vahapogut/trustdiff), where the cask is generated from.
 
 A release candidate, meaning a tag with a suffix such as `v1.2.3-rc.1`, is deliberately not published here. That is what makes one safe to push: it exercises the whole release pipeline without moving what `brew upgrade` would hand to somebody.
 
